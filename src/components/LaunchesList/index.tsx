@@ -38,7 +38,7 @@ const LaunchesList = ({ name }: ILaunchesList) => {
     if (data) {
       setLaunches(data.launchesPast);
     }
-  }, [data, launches]);
+  }, [data]);
 
   useEffect(() => {
     const currentElement = element;
